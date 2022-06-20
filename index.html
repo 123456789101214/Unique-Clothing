@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cbe0b479ec.js" crossorigin="anonymous"></script>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<style>
+   
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <ul class="hdl">
+                <li><a href="#">FAQs<span class="text-white">|</span></a></li>
+                <li><a href="#">Help<span class="text-white">|</span></a></li>
+                <li><a href="#">Support</a></li>
+            </ul> 
+        </div>
+        <nav>
+            <div class="logo">
+                <h2>UNIQUE<span>CLOTHING</span></h2>
+            </div>
+            <ul>
+                <li class="mn"><a href="#">Home</a></li>
+                <li class="mn"><a href="#">About</a></li>
+                <li class="mn"><a href="#">Services</a></li>
+                <li class="mn"><a href="#">Pricing</a>
+                    <ul>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Wholesale</a></li>
+                    </ul>
+                </li>
+                <li class="mn"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobnav">
+            <div class="logo">
+                <h2>UNIQUE<span>CLOTHING</span></h2>
+            </div>
+            <a href="#" class="menu"><i class="fas fa-bars fa-2x" style=" color: #fff;"><h3>Menu</h3></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a>
+                    <ul>
+                        <li><a href="#">Retail</a></li>
+                        <li><a href="#">Wholesale</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(
+            function(){
+                $('.mobnav .menu').click(
+                    function(){
+                        $('.mobnav ul li').slideToggle();
+                    })
+            })
+    </script>
+</body>
+</html>
